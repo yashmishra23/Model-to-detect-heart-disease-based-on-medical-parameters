@@ -1,67 +1,69 @@
-💓 Heart Disease Prediction Using Machine Learning<br>
-📌 Project Overview<br>
-This project aims to detect heart disease using supervised machine learning. We use a Random Forest classifier trained on clinical data such as age, sex, chest pain type, cholesterol, resting blood pressure, and more. The model helps in predicting whether a patient is at risk of heart disease.<br><br>
+💓 Heart Disease Prediction Using Logistic Regression
 
-📁 Files in Repository<br>
-Heart_disease_prediction_group_10.ipynb – Jupyter Notebook with complete code for data preprocessing, model training, evaluation, and visualization.<br><br>
+📌 Project Overview
 
-README.md – Project overview and instructions.<br>
+This project aims to detect the presence of heart disease using a supervised machine learning model — Logistic Regression. It uses medical parameters such as age, cholesterol, blood pressure, and chest pain type to predict the likelihood of heart disease. The model supports early diagnosis through evaluation and visualization.
 
-requirements.txt (optional) – List of required Python packages.<br>
+📁 Files in Repository
+Heart_disease_prediction_group_10.ipynb – Jupyter Notebook containing all steps: data loading, preprocessing, model training, evaluation, and visualization.
 
-heart.csv (to be uploaded by the user) – Dataset used for training the model.<br>
+README.md – This file, summarizing the project.
 
-📊 Features Used<br>
-Age<br>
+heart.csv (to be uploaded by user) – Dataset used for model training.
 
-Sex<br>
+📊 Features Used
+Age
 
-Chest pain type<br>
+Sex
 
-Resting blood pressure<br>
+Chest pain type
 
-Serum cholesterol<br>
+Resting blood pressure
 
-Fasting blood sugar<br>
+Cholesterol
 
-Resting ECG results<br>
+Fasting blood sugar
 
-Max heart rate achieved<br>
+Resting ECG
 
-Exercise-induced angina<br>
+Maximum heart rate
 
-ST depression, Slope, CA, Thal<br>
+Exercise-induced angina
 
-Target (0: No heart disease, 1: Heart disease)<br>
+ST depression
 
-🧠 Machine Learning Algorithm<br>
-Model: Random Forest Classifier<br>
+Slope, CA, Thal
 
-Why Random Forest? It’s robust to overfitting, handles non-linear features well, and provides feature importance insights.<br>
+Target (0: No heart disease, 1: Heart disease)
 
-✅ Evaluation Metrics<br>
-Accuracy<br>
+🧠 Machine Learning Algorithm
+Model Used: Logistic Regression
 
-Precision<br>
+Why Logistic Regression?
+Logistic Regression is effective for binary classification problems, easy to interpret, and performs well when features are linearly separable.
 
-Recall<br>
+✅ Evaluation Metrics
+Accuracy
 
-F1-Score<br>
+Precision
 
-ROC-AUC<br>
+Recall
 
-Confusion Matrix (Visualized)<br>
+F1-Score
 
-📈 Visualizations<br>
-Confusion matrix heatmap<br>
+Confusion Matrix
 
-ROC curve<br>
+ROC-AUC Score
 
-Feature importance bar chart<br>
+📈 Visualizations
+Confusion Matrix heatmap (via Seaborn)
 
-📌 Dataset Source<br>
-UCI Heart Disease Dataset<br>
-or<br>
-Kaggle Dataset<br>
+ROC Curve for performance evaluation
+
+Correlation heatmap (for feature analysis)
 
 
+📌 Dataset Source
+UCI Heart Disease Dataset
+
+Kaggle Dataset
